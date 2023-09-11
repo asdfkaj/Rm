@@ -1,0 +1,39 @@
+[0.549s] Invoking command in '/home/kuanghaoze/d2lros2/chapt2/fishbot_description': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/prefix_override:/home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/fishbot_description build --build-base /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build install --record /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed
+[0.745s] running egg_info
+[0.745s] creating build/fishbot_description/fishbot_description.egg-info
+[0.746s] writing build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.746s] writing dependency_links to build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.746s] writing entry points to build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.746s] writing requirements to build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.746s] writing top-level names to build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.755s] writing manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.756s] reading manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.757s] writing manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.757s] running build
+[0.757s] running build_py
+[0.757s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build
+[0.757s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build/lib
+[0.757s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build/lib/fishbot_description
+[0.757s] copying fishbot_description/__init__.py -> /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build/lib/fishbot_description
+[0.757s] running install
+[0.757s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.757s]   warnings.warn(
+[0.758s] running install_lib
+[0.758s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.758s] copying /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.759s] byte-compiling /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[0.759s] running install_data
+[0.759s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/ament_index
+[0.759s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/ament_index/resource_index
+[0.759s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/ament_index/resource_index/packages
+[0.759s] copying resource/fishbot_description -> /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/ament_index/resource_index/packages
+[0.760s] copying package.xml -> /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/fishbot_description
+[0.760s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/fishbot_description/launch
+[0.760s] copying launch/display_rviz2.launch.py -> /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/fishbot_description/launch
+[0.760s] creating /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/fishbot_description/urdf
+[0.760s] copying urdf/fishbot_base.urdf -> /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/fishbot_description/urdf
+[0.760s] running install_egg_info
+[0.761s] Copying build/fishbot_description/fishbot_description.egg-info to /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.761s] running install_scripts
+[0.777s] writing list of installed files to '/home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/install.log'
+[0.803s] Invoked command in '/home/kuanghaoze/d2lros2/chapt2/fishbot_description' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/prefix_override:/home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/fishbot_description build --build-base /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build install --record /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed

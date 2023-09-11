@@ -1,0 +1,13 @@
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PublishNode::timer_()[m[K’ conflicts with a previous declaration
+   57 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:37:34:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::TimerBase::SharedPtr PublishNode::timer_[m[K’
+   37 |     rclcpp::TimerBase::SharedPtr [01;36m[Ktimer_[m[K;
+      |                                  [01;36m[K^~~~~~[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:29:21:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(rclcpp::TimerBase::SharedPtr {aka std::shared_ptr<rclcpp::TimerBase>}) ()[m[K’
+   29 |         [01;31m[Kthis->timer_()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

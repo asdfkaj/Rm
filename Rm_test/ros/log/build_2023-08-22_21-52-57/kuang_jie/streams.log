@@ -1,0 +1,50 @@
+[0.015s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[1.861s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.862s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.862s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1[m[K:
+[1.862s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::publish_node()[m[K’:
+[1.862s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:28:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<kuang_interfaces::msg::Kuangshi_<std::allocator<void> >, std::allocator<kuang_interfaces::msg::Kuangshi_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.862s]    28 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"%d"[m[K,[32m[Kmessage.data.size()[m[K);
+[1.863s]       |                                        [01;35m[K^~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[1.863s]       |                                                              [32m[K|[m[K
+[1.863s]       |                                                              [32m[Kstd::vector<kuang_interfaces::msg::Kuangshi_<std::allocator<void> >, std::allocator<kuang_interfaces::msg::Kuangshi_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[1.863s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:28:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.863s]    28 |         RCLCPP_INFO(this->get_logger(),"[01;36m[K%d[m[K",message.data.size());
+[1.863s]       |                                         [01;36m[K~^[m[K
+[1.863s]       |                                          [01;36m[K|[m[K
+[1.863s]       |                                          [01;36m[Kint[m[K
+[1.863s]       |                                         [32m[K%ld[m[K
+[3.081s] [100%] [32m[1mLinking CXX executable kuangjie_node[0m
+[3.304s] [100%] Built target kuangjie_node
+[3.321s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '0': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[3.349s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie
+[3.354s] -- Install configuration: ""
+[3.355s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/lib/kuang_jie/kuangjie_node
+[3.356s] -- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/lib/kuang_jie/kuangjie_node" to ""
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/package_run_dependencies/kuang_jie
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/parent_prefix_path/kuang_jie
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.sh
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.dsv
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.sh
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.dsv
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.bash
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.sh
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.zsh
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.dsv
+[3.356s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.dsv
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/packages/kuang_jie
+[3.356s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig.cmake
+[3.357s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig-version.cmake
+[3.357s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.xml
+[3.358s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '0': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie

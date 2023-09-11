@@ -1,0 +1,153 @@
+[0.018s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target kuanggong_node[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o[0m
+[1.914s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance[m[K’ does not name a type
+[1.915s]    28 |     [01;31m[Kdistance[m[K.resize(kuangshi_num);
+[1.915s]       |     [01;31m[K^~~~~~~~[m[K
+[1.915s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.917s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1[m[K:
+[1.917s] /opt/ros/humble/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kclass rclcpp::Client<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >[m[K’:
+[1.917s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:59:80:[m[K   required from here
+[1.917s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:374:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.917s]   374 |   using [01;31m[KRequest[m[K = typename ServiceT::Request;
+[1.917s]       |         [01;31m[K^~~~~~~[m[K
+[1.917s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:375:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.918s]   375 |   using [01;31m[KResponse[m[K = typename ServiceT::Response;
+[1.918s]       |         [01;31m[K^~~~~~~~[m[K
+[1.918s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:377:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.918s]   377 |   using [01;31m[KSharedRequest[m[K = typename ServiceT::Request::SharedPtr;
+[1.918s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.918s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:378:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.919s]   378 |   using [01;31m[KSharedResponse[m[K = typename ServiceT::Response::SharedPtr;
+[1.919s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:380:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.919s]   380 |   using [01;31m[KPromise[m[K = std::promise<SharedResponse>;
+[1.919s]       |         [01;31m[K^~~~~~~[m[K
+[1.920s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:381:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.920s]   381 |   using [01;31m[KPromiseWithRequest[m[K = std::promise<std::pair<SharedRequest, SharedResponse>>;
+[1.920s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.920s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:383:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.920s]   383 |   using [01;31m[KSharedPromise[m[K = std::shared_ptr<Promise>;
+[1.920s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.920s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:384:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.921s]   384 |   using [01;31m[KSharedPromiseWithRequest[m[K = std::shared_ptr<PromiseWithRequest>;
+[1.921s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.921s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:386:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.921s]   386 |   using [01;31m[KFuture[m[K = std::future<SharedResponse>;
+[1.921s]       |         [01;31m[K^~~~~~[m[K
+[1.921s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:387:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.921s]   387 |   using [01;31m[KSharedFuture[m[K = std::shared_future<SharedResponse>;
+[1.921s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.922s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:388:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.922s]   388 |   using [01;31m[KSharedFutureWithRequest[m[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;
+[1.922s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.922s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:390:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.922s]   390 |   using [01;31m[KCallbackType[m[K = std::function<void (SharedFuture)>;
+[1.922s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.922s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:391:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.923s]   391 |   using [01;31m[KCallbackWithRequestType[m[K = std::function<void (SharedFutureWithRequest)>;
+[1.923s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.923s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:513:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.923s]   513 |   [01;31m[Ktake_response[m[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)
+[1.923s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.923s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.923s]   643 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[1.923s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.924s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.924s]   674 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[1.924s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.924s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:784:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.924s]   784 |   using [01;31m[KCallbackTypeValueVariant[m[K = std::tuple<CallbackType, SharedFuture, Promise>;
+[1.924s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.924s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:785:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.925s]   785 |   using [01;31m[KCallbackWithRequestTypeValueVariant[m[K = std::tuple<
+[1.925s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.925s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:788:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.925s]   788 |   using [01;31m[KCallbackInfoVariant[m[K = std::variant<
+[1.925s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.925s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:809:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.925s]   809 |   [01;31m[Kget_and_erase_pending_request[m[K(int64_t request_number)
+[1.926s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.926s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:831:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’
+[1.926s]   831 |   [01;31m[Kpending_requests_[m[K;
+[1.926s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.926s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:[m[K In member function ‘[01m[Kvoid SubscribeNode::cai_kuang(int64_t&)[m[K’:
+[1.926s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:37:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K；[m[K’
+[1.926s]    37 |         RCLCPP_INFO(this->get_logger(),"采矿去咯！")[01;31m[K；[m[K
+[1.927s]       |                                                     [01;31m[K^~[m[K
+[1.931s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:37:53:[m[K [01;31m[Kerror: [m[K‘[01m[K；[m[K’ was not declared in this scope
+[1.933s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.934s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1[m[K:
+[1.934s] /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)> >[m[K’:
+[1.934s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:165:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >[m[K’
+[1.934s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:671:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<kuang_interfaces::srv::Caikuang>::SharedFutureWithRequestAndRequestId rclcpp::Client<kuang_interfaces::srv::Caikuang>::async_send_request<CallbackT, <anonymous> >(rclcpp::Client<kuang_interfaces::srv::Caikuang>::SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>][m[K’
+[1.935s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:56:36:[m[K   required from here
+[1.935s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[1.935s]    51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+[1.935s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.935s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[1.935s]    57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+[1.935s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.935s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[1.935s]    59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+[1.935s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.936s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:56:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<kuang_interfaces::srv::Caikuang>::async_send_request(std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >&, std::_Bind_helper<false, void (SubscribeNode::*)(...), SubscribeNode*, const std::_Placeholder<1>&>::type)[m[K’
+[1.936s]    56 |         [01;31m[Kclient_->async_send_request(request,std::bind(&SubscribeNode::kuangshi_callback, this, _1))[m[K;
+[1.936s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.936s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.937s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1[m[K:
+[1.937s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = kuang_interfaces::srv::Caikuang][m[K’
+[1.937s]   643 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[1.937s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.937s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.937s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:640:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)>, std::function<void(std::shared_future<std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > >)> >[m[K’
+[1.937s]   640 |     >::type * = [01;31m[Knullptr[m[K
+[1.937s]       |                 [01;31m[K^~~~~~~[m[K
+[1.938s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = kuang_interfaces::srv::Caikuang][m[K’
+[1.938s]   674 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[1.938s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.938s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[1.938s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = kuang_interfaces::srv::Caikuang; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >][m[K’
+[1.938s]   608 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[1.938s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.938s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[1.939s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:[m[K In member function ‘[01m[Kvoid SubscribeNode::kuangshi_callback(...)[m[K’:
+[1.939s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:61:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[1.939s]    61 |         auto result = [01;31m[Kresponse[m[K.get();
+[1.939s]       |                       [01;31m[K^~~~~~~~[m[K
+[1.939s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:[m[K In member function ‘[01m[Kvoid SubscribeNode::topic_callback(const KuangshiArray&)[m[K’:
+[1.939s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:77:31:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kint64_t&[m[K’ {aka ‘[01m[Klong int&[m[K’} to an rvalue of type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’}
+[1.940s]    77 |         cai_kuang([01;31m[KminPosition + 1[m[K);
+[1.940s]       |                   [01;31m[K~~~~~~~~~~~~^~~[m[K
+[1.940s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:35:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid SubscribeNode::cai_kuang(int64_t&)[m[K’
+[1.940s]    35 |     void cai_kuang([01;36m[Kstd::int64_t& target_id[m[K)
+[1.940s]       |                    [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.925s] gmake[2]: *** [CMakeFiles/kuanggong_node.dir/build.make:76：CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o] 错误 1
+[3.925s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuanggong_node.dir/all] 错误 2
+[3.925s] gmake: *** [Makefile:146：all] 错误 2
+[3.929s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '2': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16

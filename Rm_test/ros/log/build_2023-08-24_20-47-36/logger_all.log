@@ -1,0 +1,149 @@
+[0.221s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'kuang_gong']
+[0.221s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['kuang_gong'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f159d086da0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f159d8810c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f159d8810c0>>)
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.246s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kuanghaoze/d2lros2/game_ws'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_gong) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'kuang_gong' with type 'ros.ament_cmake' and name 'kuang_gong'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_interfaces) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'kuang_interfaces' with type 'ros.ament_cmake' and name 'kuang_interfaces'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(kuang_jie) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'kuang_jie' with type 'ros.ament_cmake' and name 'kuang_jie'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kuang_interfaces' in 'kuang_interfaces'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kuang_jie' in 'kuang_jie'
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kuanghaoze/d2lros2/game_ws/install
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'kuang_gong' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'kuang_gong' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong', 'merge_install': False, 'path': '/home/kuanghaoze/d2lros2/game_ws/kuang_gong', 'symlink_install': False, 'test_result_base': None}
+[0.324s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kuanghaoze/d2lros2/game_ws/kuang_gong' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kuanghaoze/d2lros2/game_ws/kuang_gong'
+[0.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[7.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '0': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[7.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong
+[7.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuang_gong)
+[7.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '0': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong
+[7.733s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong' for CMake module files
+[7.734s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong' for CMake config files
+[7.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuang_gong', 'cmake_prefix_path')
+[7.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/hook/cmake_prefix_path.ps1'
+[7.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/hook/cmake_prefix_path.dsv'
+[7.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/hook/cmake_prefix_path.sh'
+[7.740s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib'
+[7.740s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/bin'
+[7.740s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/pkgconfig/kuang_gong.pc'
+[7.741s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/python3.10/site-packages'
+[7.741s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/bin'
+[7.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.ps1'
+[7.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.dsv'
+[7.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.sh'
+[7.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.bash'
+[7.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.zsh'
+[7.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/colcon-core/packages/kuang_gong)
+[7.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuang_gong)
+[7.774s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong' for CMake module files
+[7.774s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong' for CMake config files
+[7.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuang_gong', 'cmake_prefix_path')
+[7.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/hook/cmake_prefix_path.ps1'
+[7.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/hook/cmake_prefix_path.dsv'
+[7.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/hook/cmake_prefix_path.sh'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/bin'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/pkgconfig/kuang_gong.pc'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/python3.10/site-packages'
+[7.777s] Level 1:colcon.colcon_core.environment:checking '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/bin'
+[7.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.ps1'
+[7.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.dsv'
+[7.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.sh'
+[7.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.bash'
+[7.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.zsh'
+[7.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/colcon-core/packages/kuang_gong)
+[7.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.782s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.786s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.786s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.786s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.797s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuanghaoze/d2lros2/game_ws/install/local_setup.ps1'
+[7.799s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kuanghaoze/d2lros2/game_ws/install/_local_setup_util_ps1.py'
+[7.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuanghaoze/d2lros2/game_ws/install/setup.ps1'
+[7.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuanghaoze/d2lros2/game_ws/install/local_setup.sh'
+[7.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kuanghaoze/d2lros2/game_ws/install/_local_setup_util_sh.py'
+[7.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuanghaoze/d2lros2/game_ws/install/setup.sh'
+[7.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuanghaoze/d2lros2/game_ws/install/local_setup.bash'
+[7.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuanghaoze/d2lros2/game_ws/install/setup.bash'
+[7.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kuanghaoze/d2lros2/game_ws/install/local_setup.zsh'
+[7.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kuanghaoze/d2lros2/game_ws/install/setup.zsh'

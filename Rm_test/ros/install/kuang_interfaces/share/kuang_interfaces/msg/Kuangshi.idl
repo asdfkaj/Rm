@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kuang_interfaces/msg/Kuangshi.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Float64.idl"
+#include "std_msgs/msg/Int64.idl"
+#include "std_msgs/msg/String.idl"
+
+module kuang_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "也不知道为什么整个文件路径是std_msgs/msg/Int64但是这里不加msg，我猜测可能是因为格式就是包名+文件名" "\n"
+      "矿石编号,记住这里调用的是std_msgs/Int64标准包生成的是一个名为number的类，如果在函数中要初始化还应在number后加上.data调用类里的数据data")
+    struct Kuangshi {
+      std_msgs::msg::Int64 number;
+
+      @verbatim (language="comment", text=
+        "矿石类型")
+      std_msgs::msg::String kind;
+
+      @verbatim (language="comment", text=
+        "矿石所在位置")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "矿石价值")
+      std_msgs::msg::Float64 value;
+    };
+  };
+};

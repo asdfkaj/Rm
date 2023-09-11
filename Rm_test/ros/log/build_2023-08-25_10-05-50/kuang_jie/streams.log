@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[7.448s] [100%] [32m[1mLinking CXX executable kuangjie_node[0m
+[7.784s] [100%] Built target kuangjie_node
+[7.800s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '0': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[7.845s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie
+[7.858s] -- Install configuration: "Debug"
+[7.859s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/lib/kuang_jie/kuangjie_node
+[7.869s] -- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/lib/kuang_jie/kuangjie_node" to ""
+[7.869s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/package_run_dependencies/kuang_jie
+[7.869s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/parent_prefix_path/kuang_jie
+[7.869s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.sh
+[7.870s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.dsv
+[7.870s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.sh
+[7.870s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.dsv
+[7.870s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.bash
+[7.870s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.sh
+[7.870s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.zsh
+[7.870s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.dsv
+[7.870s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.dsv
+[7.871s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/packages/kuang_jie
+[7.871s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig.cmake
+[7.871s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig-version.cmake
+[7.871s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.xml
+[7.874s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '0': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie

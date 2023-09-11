@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (-) JobUnselected: {'identifier': 'kuang_gong'}
+[0.000687] (-) JobUnselected: {'identifier': 'kuang_interfaces'}
+[0.000769] (kuang_jie) JobQueued: {'identifier': 'kuang_jie', 'dependencies': OrderedDict([('kuang_interfaces', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces')])}
+[0.000869] (kuang_jie) JobStarted: {'identifier': 'kuang_jie'}
+[0.012200] (kuang_jie) JobProgress: {'identifier': 'kuang_jie', 'progress': 'cmake'}
+[0.013417] (kuang_jie) JobProgress: {'identifier': 'kuang_jie', 'progress': 'build'}
+[0.013550] (kuang_jie) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie', '--', '-j16', '-l16'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '954'), ('SYSTEMD_EXEC_PID', '1066'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3328'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:18702'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1047,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1047'), ('INVOCATION_ID', '1fd45e59f8114a49b8b17d9065e38dc7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8VXX91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble')]), 'shell': False}
+[0.051856] (kuang_jie) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuangjie_node\x1b[0m\n'}
+[0.067884] (kuang_jie) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o\x1b[0m\n'}
+[0.099117] (-) TimerEvent: {}
+[0.199465] (-) TimerEvent: {}
+[0.299849] (-) TimerEvent: {}
+[0.400211] (-) TimerEvent: {}
+[0.500561] (-) TimerEvent: {}
+[0.600889] (-) TimerEvent: {}
+[0.701211] (-) TimerEvent: {}
+[0.801553] (-) TimerEvent: {}
+[0.901904] (-) TimerEvent: {}
+[1.002258] (-) TimerEvent: {}
+[1.102585] (-) TimerEvent: {}
+[1.202949] (-) TimerEvent: {}
+[1.303310] (-) TimerEvent: {}
+[1.403666] (-) TimerEvent: {}
+[1.504032] (-) TimerEvent: {}
+[1.604391] (-) TimerEvent: {}
+[1.704762] (-) TimerEvent: {}
+[1.805114] (-) TimerEvent: {}
+[1.905452] (-) TimerEvent: {}
+[2.005814] (-) TimerEvent: {}
+[2.015360] (kuang_jie) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.015932] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.016083] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.016221] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.016353] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.016506] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.016633] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.016759] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.016909] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.017040] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.017166] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1\x1b[m\x1b[K:\n'}
+[2.017292] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublishNode::PublishNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.017421] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.017552] (kuang_jie) StderrLine: {'line': b'   35 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.017681] (kuang_jie) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.017805] (kuang_jie) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.017937] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.018067] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.018194] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1\x1b[m\x1b[K:\n'}
+[2.018326] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.018454] (kuang_jie) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kget_logger\x1b[m\x1b[K() const;\n'}
+[2.018588] (kuang_jie) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.018718] (kuang_jie) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.018848] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.018977] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.019104] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.019233] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.019369] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.019503] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.019633] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.019764] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.019897] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.020040] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1\x1b[m\x1b[K:\n'}
+[2.020175] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.020318] (kuang_jie) StderrLine: {'line': b'   35 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.020471] (kuang_jie) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.020611] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.020750] (kuang_jie) StderrLine: {'line': b'   35 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.020884] (kuang_jie) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.021029] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.021174] (kuang_jie) StderrLine: {'line': b'   35 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.021305] (kuang_jie) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.021435] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.021571] (kuang_jie) StderrLine: {'line': b'   35 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.021903] (kuang_jie) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.022046] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.022179] (kuang_jie) StderrLine: {'line': b'   35 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.022314] (kuang_jie) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.022452] (kuang_jie) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.022586] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.022719] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.022851] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.022995] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.023130] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.023265] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.023395] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.023527] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.023662] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.023798] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.023932] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1\x1b[m\x1b[K:\n'}
+[2.024062] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[2.024203] (kuang_jie) StderrLine: {'line': b'   35 |                 RCLCPP_INFO(this->\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.024341] (kuang_jie) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.024497] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:35:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[2.024643] (kuang_jie) StderrLine: {'line': b'   35 |                 RCLCPP_INFO(this->\x1b[01;31m\x1b[Kg\x1b[m\x1b[Ket_logger,"\xe7\xad\x89\xe5\xbe\x85\xe7\x9f\xbf\xe5\xb7\xa5\xe9\x87\x87\xe5\x8f\x96\xe5\x88\xb0\xe7\x9f\xbf\xe7\x89\xa9\xef\xbc\x81");\n'}
+[2.024781] (kuang_jie) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.105962] (-) TimerEvent: {}
+[2.206323] (-) TimerEvent: {}
+[2.306659] (-) TimerEvent: {}
+[2.407020] (-) TimerEvent: {}
+[2.507376] (-) TimerEvent: {}
+[2.607699] (-) TimerEvent: {}
+[2.708047] (-) TimerEvent: {}
+[2.808428] (-) TimerEvent: {}
+[2.908754] (-) TimerEvent: {}
+[3.009090] (-) TimerEvent: {}
+[3.049598] (kuang_jie) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.049959] (kuang_jie) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/kuangjie_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.050369] (kuang_jie) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.052547] (kuang_jie) CommandEnded: {'returncode': 2}
+[3.108616] (kuang_jie) JobEnded: {'identifier': 'kuang_jie', 'rc': 2}
+[3.109290] (-) TimerEvent: {}
+[3.119341] (-) EventReactorShutdown: {}

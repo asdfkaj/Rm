@@ -1,0 +1,23 @@
+[0.026s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target kuanggong_node[0m
+[0.118s] [100%] Built target kuanggong_node
+[0.133s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '0': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[0.177s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong
+[0.186s] -- Install configuration: ""
+[0.186s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/kuang_gong/kuanggong_node
+[0.187s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/package_run_dependencies/kuang_gong
+[0.187s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/parent_prefix_path/kuang_gong
+[0.187s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/ament_prefix_path.sh
+[0.187s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/ament_prefix_path.dsv
+[0.187s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/path.sh
+[0.188s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/path.dsv
+[0.188s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.bash
+[0.188s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.sh
+[0.188s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.zsh
+[0.188s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.dsv
+[0.188s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.dsv
+[0.189s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/packages/kuang_gong
+[0.189s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/cmake/kuang_gongConfig.cmake
+[0.189s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/cmake/kuang_gongConfig-version.cmake
+[0.189s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.xml
+[0.190s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '0': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong

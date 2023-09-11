@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[2.126s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[2.127s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.127s]    29 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(1000ms, std::bind(&PublishNode::timer_callback, this));  //500ms是时间周期,bind函数里的一个参数是类定义里的回调函数，第二个函数是该类的定义
+[2.127s]       |             [01;31m[K^~~~~~[m[K
+[2.127s]       |             [32m[Ktimer_t[m[K
+[2.127s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:29:46:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.127s]    29 |             timer_ = this->create_wall_timer([01;31m[K1000ms[m[K, std::bind(&PublishNode::timer_callback, this));  //500ms是时间周期,bind函数里的一个参数是类定义里的回调函数，第二个函数是该类的定义
+[2.127s]       |                                              [01;31m[K^~~~~~[m[K
+[3.100s] gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+[3.100s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+[3.100s] gmake: *** [Makefile:146：all] 错误 2
+[3.104s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '2': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16

@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[2.027s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[2.027s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:25:37:[m[K [01;31m[Kerror: [m[Klvalue required as unary ‘[01m[K&[m[K’ operand
+[2.028s]    25 |         std::bind(&[01;31m[KPublishNode::loop()[m[K,this);
+[2.028s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.978s] gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+[2.978s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+[2.979s] gmake: *** [Makefile:146：all] 错误 2
+[2.982s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '2': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16

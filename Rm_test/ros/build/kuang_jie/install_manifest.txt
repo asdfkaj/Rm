@@ -1,0 +1,16 @@
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/lib/kuang_jie/kuangjie_node
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/package_run_dependencies/kuang_jie
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/parent_prefix_path/kuang_jie
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.sh
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.dsv
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.sh
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.dsv
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.bash
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.sh
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.zsh
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.dsv
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.dsv
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/packages/kuang_jie
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig.cmake
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig-version.cmake
+/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.xml

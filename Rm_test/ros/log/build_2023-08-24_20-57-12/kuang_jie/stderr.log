@@ -1,0 +1,4 @@
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:24:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   24 |         for([01;35m[Kkuangshi_num[m[K ; kuangshi_num >= 0 ; kuangshi_num--)
+      |             [01;35m[K^~~~~~~~~~~~[m[K

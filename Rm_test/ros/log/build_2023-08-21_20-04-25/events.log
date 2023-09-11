@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001719] (-) JobUnselected: {'identifier': 'kuang_interfaces'}
+[0.001833] (-) JobUnselected: {'identifier': 'kuang_jie'}
+[0.001892] (kuang_gong) JobQueued: {'identifier': 'kuang_gong', 'dependencies': OrderedDict()}
+[0.001945] (kuang_gong) JobStarted: {'identifier': 'kuang_gong'}
+[0.017213] (kuang_gong) JobProgress: {'identifier': 'kuang_gong', 'progress': 'cmake'}
+[0.018417] (kuang_gong) Command: {'cmd': ['/usr/bin/cmake', '/home/kuanghaoze/d2lros2/game_ws/kuang_gong', '-DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '994'), ('SYSTEMD_EXEC_PID', '1106'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1576'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:20889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1087,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '517f5542ac744c2c84c90a3898770335'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DE3791'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046351] (kuang_gong) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099585] (-) TimerEvent: {}
+[0.200073] (-) TimerEvent: {}
+[0.265714] (kuang_gong) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300203] (-) TimerEvent: {}
+[0.335222] (kuang_gong) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.339173] (kuang_gong) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.347577] (kuang_gong) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.362848] (kuang_gong) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.385701] (kuang_gong) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400415] (-) TimerEvent: {}
+[0.473017] (kuang_gong) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.474564] (kuang_gong) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.500631] (-) TimerEvent: {}
+[0.517106] (kuang_gong) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.600843] (-) TimerEvent: {}
+[0.701379] (-) TimerEvent: {}
+[0.750175] (kuang_gong) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801565] (-) TimerEvent: {}
+[0.843607] (kuang_gong) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.844026] (kuang_gong) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.844212] (kuang_gong) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.844448] (kuang_gong) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.844976] (kuang_gong) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.845197] (kuang_gong) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.845423] (kuang_gong) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.846096] (kuang_gong) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.856990] (kuang_gong) StdoutLine: {'line': b'-- Generating done\n'}
+[0.858587] (kuang_gong) StdoutLine: {'line': b'-- Build files have been written to: /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong\n'}
+[0.869430] (kuang_gong) CommandEnded: {'returncode': 0}
+[0.870854] (kuang_gong) JobProgress: {'identifier': 'kuang_gong', 'progress': 'build'}
+[0.872962] (kuang_gong) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong', '--', '-j16', '-l16'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '994'), ('SYSTEMD_EXEC_PID', '1106'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1576'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:20889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1087,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '517f5542ac744c2c84c90a3898770335'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DE3791'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.901721] (-) TimerEvent: {}
+[0.957565] (kuang_gong) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o\x1b[0m\n'}
+[1.001877] (-) TimerEvent: {}
+[1.102300] (-) TimerEvent: {}
+[1.202698] (-) TimerEvent: {}
+[1.303142] (-) TimerEvent: {}
+[1.403543] (-) TimerEvent: {}
+[1.503972] (-) TimerEvent: {}
+[1.604402] (-) TimerEvent: {}
+[1.704823] (-) TimerEvent: {}
+[1.805249] (-) TimerEvent: {}
+[1.905678] (-) TimerEvent: {}
+[2.006113] (-) TimerEvent: {}
+[2.106543] (-) TimerEvent: {}
+[2.206978] (-) TimerEvent: {}
+[2.307393] (-) TimerEvent: {}
+[2.407887] (-) TimerEvent: {}
+[2.508476] (-) TimerEvent: {}
+[2.608942] (-) TimerEvent: {}
+[2.709383] (-) TimerEvent: {}
+[2.809824] (-) TimerEvent: {}
+[2.910262] (-) TimerEvent: {}
+[3.010695] (-) TimerEvent: {}
+[3.111123] (-) TimerEvent: {}
+[3.211523] (-) TimerEvent: {}
+[3.311960] (-) TimerEvent: {}
+[3.412390] (-) TimerEvent: {}
+[3.512853] (-) TimerEvent: {}
+[3.555906] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:6:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KPublishNode\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.556349] (kuang_gong) StderrLine: {'line': b'    6 |     \x1b[01;31m\x1b[KPublishNode\x1b[m\x1b[K() : Node("kuanggong")\n'}
+[3.556534] (kuang_gong) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.556874] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint SubscribeNode::PublishNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.557052] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:6:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[3.557191] (kuang_gong) StderrLine: {'line': b'    6 |     PublishNode() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("kuanggong")\n'}
+[3.557324] (kuang_gong) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.557555] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:10:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.557713] (kuang_gong) StderrLine: {'line': b'   10 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.557846] (kuang_gong) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.563079] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.563557] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:20:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPublishNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.563734] (kuang_gong) StderrLine: {'line': b'   20 |     auto node = std::make_shared<\x1b[01;31m\x1b[KPublishNode\x1b[m\x1b[K>();\n'}
+[3.563889] (kuang_gong) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.564049] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:20:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.564204] (kuang_gong) StderrLine: {'line': b'   20 |     auto node = \x1b[01;31m\x1b[Kstd::make_shared<PublishNode>()\x1b[m\x1b[K;\n'}
+[3.564345] (kuang_gong) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.564484] (kuang_gong) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.564680] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.564826] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1\x1b[m\x1b[K:\n'}
+[3.564969] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.565113] (kuang_gong) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.565253] (kuang_gong) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.565394] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.565558] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:20:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.565701] (kuang_gong) StderrLine: {'line': b'   20 |     auto node = \x1b[01;31m\x1b[Kstd::make_shared<PublishNode>()\x1b[m\x1b[K;\n'}
+[3.565841] (kuang_gong) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.613017] (-) TimerEvent: {}
+[3.713457] (-) TimerEvent: {}
+[3.813898] (-) TimerEvent: {}
+[3.914334] (-) TimerEvent: {}
+[4.014770] (-) TimerEvent: {}
+[4.046989] (kuang_gong) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/kuanggong_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.047386] (kuang_gong) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/kuanggong_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.047772] (kuang_gong) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.051319] (kuang_gong) CommandEnded: {'returncode': 2}
+[4.109567] (kuang_gong) JobEnded: {'identifier': 'kuang_gong', 'rc': 2}
+[4.114909] (-) TimerEvent: {}
+[4.120328] (-) EventReactorShutdown: {}

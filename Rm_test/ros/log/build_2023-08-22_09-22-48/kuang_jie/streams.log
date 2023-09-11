@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[0.454s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kkuang_interfaces/msg/kuangshi_array.hpp: 没有那个文件或目录
+[0.454s]     2 | #include [01;31m[K"kuang_interfaces/msg/kuangshi_array.hpp"[m[K
+[0.454s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.455s] compilation terminated.
+[0.459s] gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+[0.459s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+[0.460s] gmake: *** [Makefile:146：all] 错误 2
+[0.464s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16

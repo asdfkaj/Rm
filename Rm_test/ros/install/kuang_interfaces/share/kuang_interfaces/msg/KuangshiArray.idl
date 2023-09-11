@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kuang_interfaces/msg/KuangshiArray.msg
+// generated code does not contain a copyright notice
+
+#include "kuang_interfaces/msg/Kuangshi.idl"
+
+module kuang_interfaces {
+  module msg {
+    struct KuangshiArray {
+      sequence<kuang_interfaces::msg::Kuangshi> data_array;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/kuang_gong/local_setup.bash
+source;share/kuang_gong/local_setup.dsv
+source;share/kuang_gong/local_setup.sh
+source;share/kuang_gong/local_setup.zsh

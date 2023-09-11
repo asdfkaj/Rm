@@ -1,0 +1,4 @@
+Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces -- -j16 -l16
+Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces -- -j16 -l16
+Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces
+Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces

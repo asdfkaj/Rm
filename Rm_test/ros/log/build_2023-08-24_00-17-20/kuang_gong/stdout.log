@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target kuanggong_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o[0m
+[100%] [32m[1mLinking CXX executable kuanggong_node[0m
+[100%] Built target kuanggong_node
+-- Install configuration: ""
+-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/kuang_gong/kuanggong_node
+-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/kuang_gong/kuanggong_node" to ""
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/package_run_dependencies/kuang_gong
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/parent_prefix_path/kuang_gong
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/path.sh
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/path.dsv
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.bash
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.sh
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.zsh
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.dsv
+-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.dsv
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/packages/kuang_gong
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/cmake/kuang_gongConfig.cmake
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/cmake/kuang_gongConfig-version.cmake
+-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.xml

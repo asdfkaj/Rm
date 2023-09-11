@@ -1,0 +1,39 @@
+gmake: 警告：文件“Makefile”的修改时间在未来 27779 秒后
+gmake[1]: 警告：文件“CMakeFiles/Makefile2”的修改时间在未来 27779 秒后
+gmake[2]: 警告：文件“CMakeFiles/kuangjie_node.dir/flags.make”的修改时间在未来 27779 秒后
+[35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+gmake[2]: 警告：检测到时钟错误。您的构建版本可能是不完整的。
+gmake[2]: 警告：文件“CMakeFiles/kuangjie_node.dir/flags.make”的修改时间在未来 27779 秒后
+[ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kint64[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Kint64_t[m[K’?
+   22 |     std::[01;31m[Kint64[m[K num = 3;
+      |          [01;31m[K^~~~~[m[K
+      |          [32m[Kint64_t[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::publish_node()[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:26:34:[m[K [01;31m[Kerror: [m[K‘[01m[Knum[m[K’ was not declared in this scope; did you mean ‘[01m[Kenum[m[K’?
+   26 |         message.data[0].number = [01;31m[Knum[m[K;
+      |                                  [01;31m[K^~~[m[K
+      |                                  [32m[Kenum[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1[m[K:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:27:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kkuang_interfaces::msg::Kuangshi_<std::allocator<void> >::_number_type[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int64_<std::allocator<void> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   27 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"%d"[m[K,message.data[0].number);
+      |                                        [01;35m[K^~~~[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:27:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   27 |         RCLCPP_INFO(this->get_logger(),"[01;36m[K%d[m[K",message.data[0].number);
+      |                                         [01;36m[K~^[m[K
+      |                                          [01;36m[K|[m[K
+      |                                          [01;36m[Kint[m[K
+gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

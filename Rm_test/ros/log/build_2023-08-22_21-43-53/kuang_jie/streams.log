@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[1.925s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::publish_node()[m[K’:
+[1.925s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:28:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<kuang_interfaces::msg::Kuangshi_<std::allocator<void> > >, kuang_interfaces::msg::Kuangshi_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kkuang_interfaces::msg::Kuangshi_<std::allocator<void> >[m[K’}
+[1.926s]    28 |         message.data[0][01;31m[K->[m[Kkind = num;
+[1.926s]       |                        [01;31m[K^~[m[K
+[2.472s] gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+[2.472s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+[2.472s] gmake: *** [Makefile:146：all] 错误 2
+[2.475s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '2': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16

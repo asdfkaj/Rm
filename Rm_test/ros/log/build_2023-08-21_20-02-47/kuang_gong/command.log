@@ -1,0 +1,2 @@
+Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuanghaoze/d2lros2/game_ws/kuang_gong -DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong
+Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuanghaoze/d2lros2/game_ws/kuang_gong -DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong

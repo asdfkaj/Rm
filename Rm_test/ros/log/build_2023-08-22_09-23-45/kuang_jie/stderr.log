@@ -1,0 +1,39 @@
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:19:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kkuangshi_array[m[K’ is not a member of ‘[01m[Kkuang_interfaces::msg[m[K’; did you mean ‘[01m[KKuangshiArray[m[K’?
+   19 |     rclcpp::Publisher<kuang_interfaces::msg::[01;31m[Kkuangshi_array[m[K>::SharedPtr  pub_messgae;
+      |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                              [32m[KKuangshiArray[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:19:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |     rclcpp::Publisher<kuang_interfaces::msg::kuangshi_array[01;31m[K>[m[K::SharedPtr  pub_messgae;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:19:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |     rclcpp::Publisher<kuang_interfaces::msg::kuangshi_array>::[01;31m[KSharedPtr[m[K  pub_messgae;
+      |                                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:19:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_messgae[m[K’ does not name a type
+   19 |     rclcpp::Publisher<kuang_interfaces::msg::kuangshi_array>::SharedPtr  [01;31m[Kpub_messgae[m[K;
+      |                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_messgae[m[K’ was not declared in this scope
+   13 |         [01;31m[Kpub_messgae[m[K = this->create_publisher<kuang_interfaces::msg::kuangshi_array>("kuangshi_msg",10);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:13:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kkuangshi_array[m[K’ is not a member of ‘[01m[Kkuang_interfaces::msg[m[K’; did you mean ‘[01m[KKuangshiArray[m[K’?
+   13 |         pub_messgae = this->create_publisher<kuang_interfaces::msg::[01;31m[Kkuangshi_array[m[K>("kuangshi_msg",10);
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[KKuangshiArray[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:13:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublishNode::create_publisher<<expression error> >(const char [13], int)[m[K’
+   13 |         pub_messgae = [01;31m[Kthis->create_publisher<kuang_interfaces::msg::kuangshi_array>("kuangshi_msg",10)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:13:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |         pub_messgae = [01;31m[Kthis->create_publisher<kuang_interfaces::msg::kuangshi_array>("kuangshi_msg",10)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

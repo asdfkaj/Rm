@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.177s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[7.601s] [100%] [32m[1mLinking CXX executable kuangjie_node[0m
+[7.961s] [100%] Built target kuangjie_node
+[7.980s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '0': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[8.035s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie
+[8.048s] -- Install configuration: "Debug"
+[8.049s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/lib/kuang_jie/kuangjie_node
+[8.055s] -- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/lib/kuang_jie/kuangjie_node" to ""
+[8.055s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/package_run_dependencies/kuang_jie
+[8.055s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/parent_prefix_path/kuang_jie
+[8.055s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.sh
+[8.056s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/ament_prefix_path.dsv
+[8.056s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.sh
+[8.056s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/environment/path.dsv
+[8.056s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.bash
+[8.056s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.sh
+[8.056s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.zsh
+[8.057s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/local_setup.dsv
+[8.057s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.dsv
+[8.057s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/ament_index/resource_index/packages/kuang_jie
+[8.057s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig.cmake
+[8.057s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/cmake/kuang_jieConfig-version.cmake
+[8.058s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_jie/share/kuang_jie/package.xml
+[8.060s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '0': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie

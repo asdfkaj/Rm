@@ -1,0 +1,29 @@
+[0.016s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o[0m
+[1.937s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:[m[K In member function ‘[01m[Kvoid SubscribeNode::kuangshi_callback(rclcpp::Client<kuang_interfaces::srv::Caikuang>::SharedFuture)[m[K’:
+[1.937s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:53:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkuangshi_num_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.937s]    53 |         unsigned int [01;35m[Kkuangshi_num_new[m[K = kuangshi_num;
+[1.938s]       |                      [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[6.927s] [100%] [32m[1mLinking CXX executable kuanggong_node[0m
+[7.379s] [100%] Built target kuanggong_node
+[7.388s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '0': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[7.422s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong
+[7.432s] -- Install configuration: ""
+[7.432s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/kuang_gong/kuanggong_node
+[7.441s] -- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/lib/kuang_gong/kuanggong_node" to ""
+[7.441s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/package_run_dependencies/kuang_gong
+[7.441s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/parent_prefix_path/kuang_gong
+[7.441s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/ament_prefix_path.sh
+[7.442s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/ament_prefix_path.dsv
+[7.442s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/path.sh
+[7.442s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/environment/path.dsv
+[7.442s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.bash
+[7.442s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.sh
+[7.442s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.zsh
+[7.443s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/local_setup.dsv
+[7.443s] -- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.dsv
+[7.443s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/ament_index/resource_index/packages/kuang_gong
+[7.443s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/cmake/kuang_gongConfig.cmake
+[7.443s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/cmake/kuang_gongConfig-version.cmake
+[7.443s] -- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_gong/share/kuang_gong/package.xml
+[7.446s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '0': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --install /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong

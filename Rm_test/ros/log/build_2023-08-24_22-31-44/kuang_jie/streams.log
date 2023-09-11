@@ -1,0 +1,47 @@
+[0.015s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[2.158s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::publish_node()[m[K’:
+[2.158s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:90:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::vector<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >[m[K’ and ‘[01m[Kkuang_interfaces::msg::KuangshiArray[m[K’ {aka ‘[01m[Kkuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’})
+[2.158s]    90 |         vec1 = [01;31m[Kmessage[m[K;
+[2.159s]       |                [01;31m[K^~~~~~~[m[K
+[2.159s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[2.159s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.159s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.159s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.160s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1[m[K:
+[2.160s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >; _Alloc = std::allocator<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >][m[K’
+[2.160s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[2.160s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.161s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkuang_interfaces::msg::KuangshiArray[m[K’ {aka ‘[01m[Kkuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >&[m[K’
+[2.161s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[2.161s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.161s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[2.161s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.161s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.161s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.162s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1[m[K:
+[2.162s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >; _Alloc = std::allocator<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >][m[K’
+[2.162s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.163s]       |       [01;36m[K^~~~~~~~[m[K
+[2.163s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkuang_interfaces::msg::KuangshiArray[m[K’ {aka ‘[01m[Kkuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::vector<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >&&[m[K’
+[2.163s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.163s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[2.163s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >; _Alloc = std::allocator<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >][m[K’
+[2.164s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[2.164s]       |       [01;36m[K^~~~~~~~[m[K
+[2.164s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kkuang_interfaces::msg::KuangshiArray[m[K’ {aka ‘[01m[Kkuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::initializer_list<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >[m[K’
+[2.164s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[2.164s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.211s] gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+[3.211s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+[3.211s] gmake: *** [Makefile:146：all] 错误 2
+[3.216s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '2': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16

@@ -1,0 +1,8 @@
+msg/Kuangshi.idl
+msg/Kuangshi.msg
+msg/KuangshiArray.idl
+msg/KuangshiArray.msg
+srv/Caikuang.idl
+srv/Caikuang.srv
+srv/Caikuang_Request.msg
+srv/Caikuang_Response.msg

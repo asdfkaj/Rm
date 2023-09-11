@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.000595] (-) JobUnselected: {'identifier': 'kuang_interfaces'}
+[0.000900] (-) JobUnselected: {'identifier': 'kuang_jie'}
+[0.001000] (kuang_gong) JobQueued: {'identifier': 'kuang_gong', 'dependencies': OrderedDict([('kuang_interfaces', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces')])}
+[0.001061] (kuang_gong) JobStarted: {'identifier': 'kuang_gong'}
+[0.013115] (kuang_gong) JobProgress: {'identifier': 'kuang_gong', 'progress': 'cmake'}
+[0.014480] (kuang_gong) JobProgress: {'identifier': 'kuang_gong', 'progress': 'build'}
+[0.016253] (kuang_gong) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong', '--', '-j16', '-l16'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1037'), ('SYSTEMD_EXEC_PID', '1148'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20840'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:33596'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1130,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1130'), ('INVOCATION_ID', 'de46ea03c7f44434b946f861604d6bd7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTIGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.069548] (kuang_gong) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuanggong_node\x1b[0m\n'}
+[0.083903] (kuang_gong) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o\x1b[0m\n'}
+[0.098803] (-) TimerEvent: {}
+[0.199106] (-) TimerEvent: {}
+[0.299533] (-) TimerEvent: {}
+[0.399945] (-) TimerEvent: {}
+[0.500358] (-) TimerEvent: {}
+[0.600854] (-) TimerEvent: {}
+[0.701375] (-) TimerEvent: {}
+[0.801791] (-) TimerEvent: {}
+[0.902185] (-) TimerEvent: {}
+[1.002594] (-) TimerEvent: {}
+[1.103013] (-) TimerEvent: {}
+[1.203406] (-) TimerEvent: {}
+[1.303819] (-) TimerEvent: {}
+[1.404217] (-) TimerEvent: {}
+[1.504623] (-) TimerEvent: {}
+[1.605055] (-) TimerEvent: {}
+[1.705491] (-) TimerEvent: {}
+[1.805836] (-) TimerEvent: {}
+[1.906236] (-) TimerEvent: {}
+[1.960167] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:28:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdis\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.960535] (kuang_gong) StderrLine: {'line': b'   28 |     \x1b[01;31m\x1b[Kdis\x1b[m\x1b[K.resize(kuangshi_num);\n'}
+[1.960705] (kuang_gong) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.960841] (kuang_gong) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.960976] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.961106] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.961236] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.961401] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.961552] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.961683] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.961837] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.961966] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.962096] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1\x1b[m\x1b[K:\n'}
+[1.962226] (kuang_gong) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Client<kuang_interfaces::msg::KuangshiArray_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.962361] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:59:80:\x1b[m\x1b[K   required from here\n'}
+[1.962492] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:374:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.962627] (kuang_gong) StderrLine: {'line': b'  374 |   using \x1b[01;31m\x1b[KRequest\x1b[m\x1b[K = typename ServiceT::Request;\n'}
+[1.962758] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.962891] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:375:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.963025] (kuang_gong) StderrLine: {'line': b'  375 |   using \x1b[01;31m\x1b[KResponse\x1b[m\x1b[K = typename ServiceT::Response;\n'}
+[1.963157] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.963289] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:377:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.963423] (kuang_gong) StderrLine: {'line': b'  377 |   using \x1b[01;31m\x1b[KSharedRequest\x1b[m\x1b[K = typename ServiceT::Request::SharedPtr;\n'}
+[1.963555] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.963686] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:378:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.963820] (kuang_gong) StderrLine: {'line': b'  378 |   using \x1b[01;31m\x1b[KSharedResponse\x1b[m\x1b[K = typename ServiceT::Response::SharedPtr;\n'}
+[1.963952] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.964082] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:380:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.964230] (kuang_gong) StderrLine: {'line': b'  380 |   using \x1b[01;31m\x1b[KPromise\x1b[m\x1b[K = std::promise<SharedResponse>;\n'}
+[1.964363] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.964505] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:381:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.964639] (kuang_gong) StderrLine: {'line': b'  381 |   using \x1b[01;31m\x1b[KPromiseWithRequest\x1b[m\x1b[K = std::promise<std::pair<SharedRequest, SharedResponse>>;\n'}
+[1.964770] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.964900] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:383:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.965034] (kuang_gong) StderrLine: {'line': b'  383 |   using \x1b[01;31m\x1b[KSharedPromise\x1b[m\x1b[K = std::shared_ptr<Promise>;\n'}
+[1.965187] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.965320] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:384:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.965494] (kuang_gong) StderrLine: {'line': b'  384 |   using \x1b[01;31m\x1b[KSharedPromiseWithRequest\x1b[m\x1b[K = std::shared_ptr<PromiseWithRequest>;\n'}
+[1.965626] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.965760] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:386:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.965894] (kuang_gong) StderrLine: {'line': b'  386 |   using \x1b[01;31m\x1b[KFuture\x1b[m\x1b[K = std::future<SharedResponse>;\n'}
+[1.966026] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.966180] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:387:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.966394] (kuang_gong) StderrLine: {'line': b'  387 |   using \x1b[01;31m\x1b[KSharedFuture\x1b[m\x1b[K = std::shared_future<SharedResponse>;\n'}
+[1.966605] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.966832] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:388:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.966989] (kuang_gong) StderrLine: {'line': b'  388 |   using \x1b[01;31m\x1b[KSharedFutureWithRequest\x1b[m\x1b[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;\n'}
+[1.967163] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.967306] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:390:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.967461] (kuang_gong) StderrLine: {'line': b'  390 |   using \x1b[01;31m\x1b[KCallbackType\x1b[m\x1b[K = std::function<void (SharedFuture)>;\n'}
+[1.967594] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.967725] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:391:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.967865] (kuang_gong) StderrLine: {'line': b'  391 |   using \x1b[01;31m\x1b[KCallbackWithRequestType\x1b[m\x1b[K = std::function<void (SharedFutureWithRequest)>;\n'}
+[1.968006] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.968145] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:513:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.968286] (kuang_gong) StderrLine: {'line': b'  513 |   \x1b[01;31m\x1b[Ktake_response\x1b[m\x1b[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)\n'}
+[1.968427] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.968566] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.968708] (kuang_gong) StderrLine: {'line': b'  643 |   \x1b[01;31m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[1.968948] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.969086] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.969221] (kuang_gong) StderrLine: {'line': b'  674 |   \x1b[01;31m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[1.969381] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.969528] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:784:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.969663] (kuang_gong) StderrLine: {'line': b'  784 |   using \x1b[01;31m\x1b[KCallbackTypeValueVariant\x1b[m\x1b[K = std::tuple<CallbackType, SharedFuture, Promise>;\n'}
+[1.969796] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.969926] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:785:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.970059] (kuang_gong) StderrLine: {'line': b'  785 |   using \x1b[01;31m\x1b[KCallbackWithRequestTypeValueVariant\x1b[m\x1b[K = std::tuple<\n'}
+[1.970201] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.970348] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:788:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.970490] (kuang_gong) StderrLine: {'line': b'  788 |   using \x1b[01;31m\x1b[KCallbackInfoVariant\x1b[m\x1b[K = std::variant<\n'}
+[1.970622] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.970757] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:809:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.970889] (kuang_gong) StderrLine: {'line': b'  809 |   \x1b[01;31m\x1b[Kget_and_erase_pending_request\x1b[m\x1b[K(int64_t request_number)\n'}
+[1.971020] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.971149] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:831:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.971283] (kuang_gong) StderrLine: {'line': b'  831 |   \x1b[01;31m\x1b[Kpending_requests_\x1b[m\x1b[K;\n'}
+[1.971421] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.971559] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SubscribeNode::cai_kuang(int64_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.971701] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:37:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K\xef\xbc\x9b\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.971843] (kuang_gong) StderrLine: {'line': b'   37 |         RCLCPP_INFO(this->get_logger(),"\xe9\x87\x87\xe7\x9f\xbf\xe5\x8e\xbb\xe5\x92\xaf\xef\xbc\x81")\x1b[01;31m\x1b[K\xef\xbc\x9b\x1b[m\x1b[K\n'}
+[1.971984] (kuang_gong) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.972201] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:37:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K\xef\xbc\x9b\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.973523] (kuang_gong) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39\x1b[m\x1b[K,\n'}
+[1.973785] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.974008] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.974213] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.974425] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.974566] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.974736] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.974888] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.975020] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.975152] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.975292] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1\x1b[m\x1b[K:\n'}
+[1.975424] (kuang_gong) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.975559] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:165:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::same_arguments<std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.975699] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:671:17:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<kuang_interfaces::srv::Caikuang>::SharedFutureWithRequestAndRequestId rclcpp::Client<kuang_interfaces::srv::Caikuang>::async_send_request<CallbackT, <anonymous> >(rclcpp::Client<kuang_interfaces::srv::Caikuang>::SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.975878] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:56:36:\x1b[m\x1b[K   required from here\n'}
+[1.976016] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[1.976160] (kuang_gong) StderrLine: {'line': b'   51 |   using \x1b[01;31m\x1b[Karguments\x1b[m\x1b[K = typename tuple_tail<\n'}
+[1.976293] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.976424] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[1.976562] (kuang_gong) StderrLine: {'line': b'   57 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[1.976693] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.976836] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[1.976968] (kuang_gong) StderrLine: {'line': b'   59 |   using \x1b[01;31m\x1b[Kreturn_type\x1b[m\x1b[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;\n'}
+[1.977101] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.977231] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:56:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<kuang_interfaces::srv::Caikuang>::async_send_request(std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >&, std::_Bind_helper<false, void (SubscribeNode::*)(...), SubscribeNode*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.977413] (kuang_gong) StderrLine: {'line': b'   56 |         \x1b[01;31m\x1b[Kclient_->async_send_request(request,std::bind(&SubscribeNode::kuangshi_callback, this, _1))\x1b[m\x1b[K;\n'}
+[1.977562] (kuang_gong) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.977700] (kuang_gong) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.977833] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.977980] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.978111] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.978257] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.978396] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.978535] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.978675] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.978812] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.978951] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1\x1b[m\x1b[K:\n'}
+[1.979090] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = kuang_interfaces::srv::Caikuang]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.979421] (kuang_gong) StderrLine: {'line': b'  643 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[1.979568] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.979706] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.979849] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:640:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::function_traits::same_arguments<std::_Bind<void (SubscribeNode::*(SubscribeNode*, std::_Placeholder<1>))(...)>, std::function<void(std::shared_future<std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > >)> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980026] (kuang_gong) StderrLine: {'line': b'  640 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[1.980500] (kuang_gong) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.980718] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >, std::shared_ptr<kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = kuang_interfaces::srv::Caikuang]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.980960] (kuang_gong) StderrLine: {'line': b'  674 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[1.981117] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.981279] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[1.981469] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = kuang_interfaces::srv::Caikuang; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.981634] (kuang_gong) StderrLine: {'line': b'  608 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request)\n'}
+[1.981768] (kuang_gong) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.981898] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[1.982030] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SubscribeNode::kuangshi_callback(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.982163] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:61:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.982315] (kuang_gong) StderrLine: {'line': b'   61 |         auto result = \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K.get();\n'}
+[1.982447] (kuang_gong) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.982578] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SubscribeNode::topic_callback(const KuangshiArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.982711] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:74:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.982844] (kuang_gong) StderrLine: {'line': b'   74 |             \x1b[01;31m\x1b[Kdistance\x1b[m\x1b[K[i] = sqrt(pow((message.data_array[i].position.x - my_x),2) + pow((message.data_array[i].position.y - my_y),2) + pow((message.data_array[i].position.z - my_z),2));\n'}
+[1.982975] (kuang_gong) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.983104] (kuang_gong) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kstd::distance\x1b[m\x1b[K\n'}
+[1.983233] (kuang_gong) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:66\x1b[m\x1b[K,\n'}
+[1.983365] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.983494] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.983634] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1\x1b[m\x1b[K:\n'}
+[1.983766] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:138:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.983915] (kuang_gong) StderrLine: {'line': b'  138 |     \x1b[01;36m\x1b[Kdistance\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last)\n'}
+[1.984047] (kuang_gong) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.984179] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:76:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.984312] (kuang_gong) StderrLine: {'line': b'   76 |         minPosition = min_element(\x1b[01;31m\x1b[Kdistance\x1b[m\x1b[K.begin(),distance.end()) - distance.begin();      //\xe8\xbf\x94\xe5\x9b\x9e\xe6\x9c\x80\xe5\xb0\x8f\xe5\x80\xbc\xe7\x9a\x84\xe4\xb8\x8b\xe6\xa0\x87\n'}
+[1.984444] (kuang_gong) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.984574] (kuang_gong) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Kstd::distance\x1b[m\x1b[K\n'}
+[1.984704] (kuang_gong) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:66\x1b[m\x1b[K,\n'}
+[1.984834] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.984963] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.985093] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1\x1b[m\x1b[K:\n'}
+[1.985222] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:138:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::distance\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.985619] (kuang_gong) StderrLine: {'line': b'  138 |     \x1b[01;36m\x1b[Kdistance\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last)\n'}
+[1.985752] (kuang_gong) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.985881] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:76:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin_element\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::min_element\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.986014] (kuang_gong) StderrLine: {'line': b'   76 |         minPosition = \x1b[01;31m\x1b[Kmin_element\x1b[m\x1b[K(distance.begin(),distance.end()) - distance.begin();      //\xe8\xbf\x94\xe5\x9b\x9e\xe6\x9c\x80\xe5\xb0\x8f\xe5\x80\xbc\xe7\x9a\x84\xe4\xb8\x8b\xe6\xa0\x87\n'}
+[1.986146] (kuang_gong) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.986276] (kuang_gong) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kstd::min_element\x1b[m\x1b[K\n'}
+[1.986406] (kuang_gong) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.986546] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.986744] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.986957] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.987200] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.987412] (kuang_gong) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1\x1b[m\x1b[K:\n'}
+[1.987620] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:520:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::min_element\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.987763] (kuang_gong) StderrLine: {'line': b'  520 | \x1b[01;36m\x1b[Kmin_element\x1b[m\x1b[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last);\n'}
+[1.987933] (kuang_gong) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.988073] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:77:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind non-const lvalue reference of type \xe2\x80\x98\x1b[01m\x1b[Kint64_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int&\x1b[m\x1b[K\xe2\x80\x99} to an rvalue of type \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.988215] (kuang_gong) StderrLine: {'line': b'   77 |         cai_kuang(\x1b[01;31m\x1b[KminPosition + 1\x1b[m\x1b[K);\n'}
+[1.988345] (kuang_gong) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.988476] (kuang_gong) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:35:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid SubscribeNode::cai_kuang(int64_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.988610] (kuang_gong) StderrLine: {'line': b'   35 |     void cai_kuang(\x1b[01;36m\x1b[Kstd::int64_t& target_id\x1b[m\x1b[K)\n'}
+[1.988740] (kuang_gong) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.006374] (-) TimerEvent: {}
+[2.106759] (-) TimerEvent: {}
+[2.207174] (-) TimerEvent: {}
+[2.307567] (-) TimerEvent: {}
+[2.407998] (-) TimerEvent: {}
+[2.508500] (-) TimerEvent: {}
+[2.608916] (-) TimerEvent: {}
+[2.709352] (-) TimerEvent: {}
+[2.809751] (-) TimerEvent: {}
+[2.910146] (-) TimerEvent: {}
+[3.010548] (-) TimerEvent: {}
+[3.110944] (-) TimerEvent: {}
+[3.211334] (-) TimerEvent: {}
+[3.311751] (-) TimerEvent: {}
+[3.412155] (-) TimerEvent: {}
+[3.512593] (-) TimerEvent: {}
+[3.613197] (-) TimerEvent: {}
+[3.713640] (-) TimerEvent: {}
+[3.814039] (-) TimerEvent: {}
+[3.914429] (-) TimerEvent: {}
+[3.960342] (kuang_gong) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/kuanggong_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.960703] (kuang_gong) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/kuanggong_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.961112] (kuang_gong) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.963962] (kuang_gong) CommandEnded: {'returncode': 2}
+[4.013798] (kuang_gong) JobEnded: {'identifier': 'kuang_gong', 'rc': 2}
+[4.015214] (-) TimerEvent: {}
+[4.024378] (-) EventReactorShutdown: {}

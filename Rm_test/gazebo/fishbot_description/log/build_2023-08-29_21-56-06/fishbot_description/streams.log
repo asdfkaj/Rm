@@ -1,0 +1,21 @@
+[0.555s] Invoking command in '/home/kuanghaoze/d2lros2/chapt2/fishbot_description': PYTHONPATH=/home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/prefix_override:/home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/fishbot_description build --build-base /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build install --record /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed
+[0.747s] running egg_info
+[0.747s] writing build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.747s] writing dependency_links to build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.748s] writing entry points to build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.748s] writing requirements to build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.748s] writing top-level names to build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.750s] reading manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.750s] writing manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.750s] running build
+[0.751s] running build_py
+[0.751s] running install
+[0.751s] running install_lib
+[0.751s] running install_data
+[0.752s] copying urdf/fishbot_base.urdf -> /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/share/fishbot_description/urdf
+[0.752s] running install_egg_info
+[0.753s] removing '/home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.753s] Copying build/fishbot_description/fishbot_description.egg-info to /home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.754s] running install_scripts
+[0.768s] writing list of installed files to '/home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/install.log'
+[0.796s] Invoked command in '/home/kuanghaoze/d2lros2/chapt2/fishbot_description' returned '0': PYTHONPATH=/home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/prefix_override:/home/kuanghaoze/d2lros2/chapt2/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/fishbot_description build --build-base /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/build install --record /home/kuanghaoze/d2lros2/chapt2/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed

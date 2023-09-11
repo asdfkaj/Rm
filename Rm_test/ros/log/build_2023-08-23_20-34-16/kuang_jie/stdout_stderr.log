@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::cai_kuang_callback(kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> >::SharedPtr, kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:79:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kvoid[m[K’
+   79 |         (response->position).x = [01;31m[Kpublish_node()[m[K.[request->id - 1].position.x;
+      |                                  [01;31m[K~~~~~~~~~~~~^~[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:80:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   80 |         (response->position).y = [01;31m[Kmessage[m[K.data_array[request->id - 1].position.y;
+      |                                  [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

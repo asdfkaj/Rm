@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target kuanggong_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o[0m
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:[m[K In member function ‘[01m[Kvoid SubscribeNode::cai_kuang(int64_t)[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:80:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing KuangshiArray = struct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct kuang_interfaces::msg::KuangshiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbegin[m[K’
+   80 |         message.data_array.erase(message.[01;31m[Kbegin[m[K() + target_id - 1);
+      |                                          [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/kuanggong_node.dir/build.make:76：CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuanggong_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

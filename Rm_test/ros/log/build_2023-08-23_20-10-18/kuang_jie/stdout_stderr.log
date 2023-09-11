@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kauto[m[K’ not permitted in template argument
+   36 |     std::vector<[01;31m[Kauto[m[K> vec;
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:36:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |     std::vector<auto[01;31m[K>[m[K vec;
+      |                     [01;31m[K^[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:36:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:27:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   27 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::publish_node()[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:69:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kkuang_interfaces::msg::KuangshiArray_<std::allocator<void> >::_data_array_type[m[K’ {aka ‘[01m[Kstd::vector<kuang_interfaces::msg::Kuangshi_<std::allocator<void> >, std::allocator<kuang_interfaces::msg::Kuangshi_<std::allocator<void> > > >[m[K’} to ‘[01m[Kint[m[K’ in assignment
+   69 |             vec = [01;31m[Kmessage.data_array[m[K;
+      |                   [01;31m[K~~~~~~~~^~~~~~~~~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kkuang_interfaces::msg::KuangshiArray_<std::allocator<void> >::_data_array_type {aka std::vector<kuang_interfaces::msg::Kuangshi_<std::allocator<void> >, std::allocator<kuang_interfaces::msg::Kuangshi_<std::allocator<void> > > >}[m[K
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::cai_kuang_callback(kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> >::SharedPtr, kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:78:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   78 |         (response->position).x = [01;31m[Kmessage[m[K.data_array[request->id - 1].position.x;
+      |                                  [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

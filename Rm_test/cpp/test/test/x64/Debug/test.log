@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\VS-test\test\main.cpp(25,24): warning C4244: “=”: 从“int”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+D:\VS-test\test\main.cpp(77,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\VS-test\test\main.cpp(130): warning C4715: “createTimerLoop”: 不是所有的控件路径都返回值
+  test.vcxproj -> D:\VS-test\test\x64\Debug\test.exe

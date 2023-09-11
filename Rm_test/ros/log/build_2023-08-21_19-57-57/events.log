@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (-) JobUnselected: {'identifier': 'kuang_gong'}
+[0.000485] (-) JobUnselected: {'identifier': 'kuang_interfaces'}
+[0.000541] (kuang_jie) JobQueued: {'identifier': 'kuang_jie', 'dependencies': OrderedDict()}
+[0.000594] (kuang_jie) JobStarted: {'identifier': 'kuang_jie'}
+[0.022881] (kuang_jie) JobProgress: {'identifier': 'kuang_jie', 'progress': 'cmake'}
+[0.023412] (kuang_jie) Command: {'cmd': ['/usr/bin/cmake', '/home/kuanghaoze/d2lros2/game_ws/kuang_jie', '-DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '994'), ('SYSTEMD_EXEC_PID', '1106'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1576'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:20889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1087,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '517f5542ac744c2c84c90a3898770335'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DE3791'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097823] (-) TimerEvent: {}
+[0.161297] (kuang_jie) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198004] (-) TimerEvent: {}
+[0.266739] (kuang_jie) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.279664] (kuang_jie) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298189] (-) TimerEvent: {}
+[0.378194] (kuang_jie) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.388592] (kuang_jie) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.389074] (kuang_jie) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.389829] (kuang_jie) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.394211] (kuang_jie) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.398299] (-) TimerEvent: {}
+[0.494304] (kuang_jie) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.498446] (-) TimerEvent: {}
+[0.504722] (kuang_jie) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.505223] (kuang_jie) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.505496] (kuang_jie) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.515922] (kuang_jie) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.598671] (-) TimerEvent: {}
+[0.699337] (-) TimerEvent: {}
+[0.759145] (kuang_jie) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.799494] (-) TimerEvent: {}
+[0.885801] (kuang_jie) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.899657] (-) TimerEvent: {}
+[0.956233] (kuang_jie) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.962962] (kuang_jie) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.975300] (kuang_jie) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.996042] (kuang_jie) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.999815] (-) TimerEvent: {}
+[1.028887] (kuang_jie) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.099971] (-) TimerEvent: {}
+[1.139526] (kuang_jie) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.144099] (kuang_jie) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.199704] (kuang_jie) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.199989] (-) TimerEvent: {}
+[1.214682] (kuang_jie) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.300171] (-) TimerEvent: {}
+[1.309069] (kuang_jie) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.309352] (kuang_jie) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.393540] (kuang_jie) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.394665] (kuang_jie) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.400319] (-) TimerEvent: {}
+[1.500752] (-) TimerEvent: {}
+[1.601141] (-) TimerEvent: {}
+[1.651108] (kuang_jie) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.701280] (-) TimerEvent: {}
+[1.762491] (kuang_jie) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.762772] (kuang_jie) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.762937] (kuang_jie) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.763330] (kuang_jie) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.764586] (kuang_jie) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.764833] (kuang_jie) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.765281] (kuang_jie) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.766959] (kuang_jie) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.776968] (kuang_jie) StdoutLine: {'line': b'-- Generating done\n'}
+[1.778630] (kuang_jie) StdoutLine: {'line': b'-- Build files have been written to: /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie\n'}
+[1.786274] (kuang_jie) CommandEnded: {'returncode': 0}
+[1.787224] (kuang_jie) JobProgress: {'identifier': 'kuang_jie', 'progress': 'build'}
+[1.788256] (kuang_jie) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie', '--', '-j16', '-l16'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '994'), ('SYSTEMD_EXEC_PID', '1106'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1576'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:20889'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1087,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1087'), ('INVOCATION_ID', '517f5542ac744c2c84c90a3898770335'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DE3791'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.801417] (-) TimerEvent: {}
+[1.850811] (kuang_jie) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o\x1b[0m\n'}
+[1.901576] (-) TimerEvent: {}
+[2.001983] (-) TimerEvent: {}
+[2.102385] (-) TimerEvent: {}
+[2.202773] (-) TimerEvent: {}
+[2.303150] (-) TimerEvent: {}
+[2.403518] (-) TimerEvent: {}
+[2.503881] (-) TimerEvent: {}
+[2.604308] (-) TimerEvent: {}
+[2.704757] (-) TimerEvent: {}
+[2.805216] (-) TimerEvent: {}
+[2.905653] (-) TimerEvent: {}
+[3.006091] (-) TimerEvent: {}
+[3.106534] (-) TimerEvent: {}
+[3.206976] (-) TimerEvent: {}
+[3.307420] (-) TimerEvent: {}
+[3.407866] (-) TimerEvent: {}
+[3.508309] (-) TimerEvent: {}
+[3.608765] (-) TimerEvent: {}
+[3.709164] (-) TimerEvent: {}
+[3.809586] (-) TimerEvent: {}
+[3.910009] (-) TimerEvent: {}
+[4.010449] (-) TimerEvent: {}
+[4.110849] (-) TimerEvent: {}
+[4.211285] (-) TimerEvent: {}
+[4.311714] (-) TimerEvent: {}
+[4.412147] (-) TimerEvent: {}
+[4.512628] (-) TimerEvent: {}
+[4.603701] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:15:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (0, should be at least 1)\n'}
+[4.604030] (kuang_jie) StderrLine: {'line': b'   15 |     rclcpp::Publisher<\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr  pub_messgae;\n'}
+[4.604196] (kuang_jie) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.610024] (kuang_jie) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[4.610413] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.610583] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.610726] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.610879] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.611015] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.611151] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.611286] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.611420] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.611559] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.611700] (kuang_jie) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:1\x1b[m\x1b[K:\n'}
+[4.611842] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT> class rclcpp::Publisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.611997] (kuang_jie) StderrLine: {'line': b'   77 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[4.612140] (kuang_jie) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.612282] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:15:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.612479] (kuang_jie) StderrLine: {'line': b'   15 |     rclcpp::Publisher<>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K  pub_messgae;\n'}
+[4.612627] (-) TimerEvent: {}
+[4.612798] (kuang_jie) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.612958] (kuang_jie) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.613337] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:15:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_messgae\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.613617] (kuang_jie) StderrLine: {'line': b'   15 |     rclcpp::Publisher<>::SharedPtr  \x1b[01;31m\x1b[Kpub_messgae\x1b[m\x1b[K;\n'}
+[4.613915] (kuang_jie) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.614137] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:19:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[4.614309] (kuang_jie) StderrLine: {'line': b'   19 | }\n'}
+[4.614450] (kuang_jie) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.614590] (kuang_jie) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.614889] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublishNode::PublishNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.615046] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:10:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PublishNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdeclare_paremeter\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdeclare_parameter\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.615255] (kuang_jie) StderrLine: {'line': b'   10 |         this->\x1b[01;31m\x1b[Kdeclare_paremeter\x1b[m\x1b[K("kuangshi_num",kuangshi_num);\n'}
+[4.615494] (kuang_jie) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.615665] (kuang_jie) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kdeclare_parameter\x1b[m\x1b[K\n'}
+[4.617632] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.617925] (kuang_jie) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.618088] (kuang_jie) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::spin(node);\n'}
+[4.618235] (kuang_jie) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.712795] (-) TimerEvent: {}
+[4.813255] (-) TimerEvent: {}
+[4.913646] (-) TimerEvent: {}
+[5.014034] (-) TimerEvent: {}
+[5.114442] (-) TimerEvent: {}
+[5.137447] (kuang_jie) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.137858] (kuang_jie) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/kuangjie_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.138072] (kuang_jie) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.140489] (kuang_jie) CommandEnded: {'returncode': 2}
+[5.186357] (kuang_jie) JobEnded: {'identifier': 'kuang_jie', 'rc': 2}
+[5.197238] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[0.014s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[1.854s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kauto[m[K’ not permitted in template argument
+[1.854s]    36 |     std::vector<[01;31m[Kauto[m[K> vec;
+[1.854s]       |                 [01;31m[K^~~~[m[K
+[1.854s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:36:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.855s]    36 |     std::vector<auto[01;31m[K>[m[K vec;
+[1.855s]       |                     [01;31m[K^[m[K
+[1.855s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:36:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.862s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[1.862s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:27:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.862s]    27 |     [01;31m[K}[m[K
+[1.862s]       |     [01;31m[K^[m[K
+[1.871s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In member function ‘[01m[Kvoid PublishNode::cai_kuang_callback(kuang_interfaces::srv::Caikuang_Request_<std::allocator<void> >::SharedPtr, kuang_interfaces::srv::Caikuang_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.872s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:78:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[1.872s]    78 |         (response->position).x = [01;31m[Kmessage[m[K.data_array[request->id - 1].position.x;
+[1.872s]       |                                  [01;31m[K^~~~~~~[m[K
+[2.611s] gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+[2.611s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+[2.611s] gmake: *** [Makefile:146：all] 错误 2
+[2.615s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '2': AMENT_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16

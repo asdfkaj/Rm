@@ -1,0 +1,17 @@
+[0.018s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target kuangjie_node[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o[0m
+[2.142s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PublishNode::timer_()[m[K’ conflicts with a previous declaration
+[2.143s]    57 |     [01;31m[K}[m[K
+[2.143s]       |     [01;31m[K^[m[K
+[2.143s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:37:34:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::TimerBase::SharedPtr PublishNode::timer_[m[K’
+[2.143s]    37 |     rclcpp::TimerBase::SharedPtr [01;36m[Ktimer_[m[K;
+[2.143s]       |                                  [01;36m[K^~~~~~[m[K
+[2.146s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:[m[K In constructor ‘[01m[KPublishNode::PublishNode()[m[K’:
+[2.146s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_jie/src/kuangjie.cpp:29:21:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(rclcpp::TimerBase::SharedPtr {aka std::shared_ptr<rclcpp::TimerBase>}) ()[m[K’
+[2.146s]    29 |         [01;31m[Kthis->timer_()[m[K;
+[2.146s]       |         [01;31m[K~~~~~~~~~~~~^~[m[K
+[3.221s] gmake[2]: *** [CMakeFiles/kuangjie_node.dir/build.make:76：CMakeFiles/kuangjie_node.dir/src/kuangjie.cpp.o] 错误 1
+[3.221s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuangjie_node.dir/all] 错误 2
+[3.222s] gmake: *** [Makefile:146：all] 错误 2
+[3.225s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_jie' returned '2': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_jie -- -j16 -l16

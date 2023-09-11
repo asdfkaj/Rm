@@ -1,0 +1,8 @@
+{
+  "package_name": "kuang_interfaces",
+  "non_idl_tuples": [
+    "/home/kuanghaoze/d2lros2/game_ws/kuang_interfaces:msg/Kuangshi.msg",
+    "/home/kuanghaoze/d2lros2/game_ws/kuang_interfaces:msg/KuangshiArray.msg",
+    "/home/kuanghaoze/d2lros2/game_ws/kuang_interfaces:srv/Caikuang.srv"
+  ]
+}

@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.000569] (-) JobUnselected: {'identifier': 'kuang_gong'}
+[0.000905] (-) JobUnselected: {'identifier': 'kuang_jie'}
+[0.002009] (kuang_interfaces) JobQueued: {'identifier': 'kuang_interfaces', 'dependencies': OrderedDict()}
+[0.002154] (kuang_interfaces) JobStarted: {'identifier': 'kuang_interfaces'}
+[0.009789] (kuang_interfaces) JobProgress: {'identifier': 'kuang_interfaces', 'progress': 'cmake'}
+[0.010852] (kuang_interfaces) JobProgress: {'identifier': 'kuang_interfaces', 'progress': 'build'}
+[0.011771] (kuang_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1037'), ('SYSTEMD_EXEC_PID', '1148'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20840'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:33596'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/bin:/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1130,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1130'), ('INVOCATION_ID', 'de46ea03c7f44434b946f861604d6bd7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTIGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/kuanghaoze/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble')]), 'shell': False}
+[0.039832] (kuang_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098962] (-) TimerEvent: {}
+[0.186879] (kuang_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.199071] (-) TimerEvent: {}
+[0.239277] (kuang_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.244462] (kuang_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.251098] (kuang_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.259758] (kuang_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.271988] (kuang_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299212] (-) TimerEvent: {}
+[0.318412] (kuang_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.354558] (kuang_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.399343] (-) TimerEvent: {}
+[0.499719] (-) TimerEvent: {}
+[0.600074] (-) TimerEvent: {}
+[0.700471] (-) TimerEvent: {}
+[0.738248] (kuang_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800608] (-) TimerEvent: {}
+[0.900964] (-) TimerEvent: {}
+[1.001397] (-) TimerEvent: {}
+[1.101831] (-) TimerEvent: {}
+[1.202325] (-) TimerEvent: {}
+[1.302720] (-) TimerEvent: {}
+[1.323597] (kuang_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.402858] (-) TimerEvent: {}
+[1.503328] (-) TimerEvent: {}
+[1.583586] (kuang_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603270] (kuang_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.603567] (-) TimerEvent: {}
+[1.641398] (kuang_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.641626] (kuang_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.641743] (kuang_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.703719] (-) TimerEvent: {}
+[1.713080] (kuang_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.720933] (kuang_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.721882] (kuang_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.723699] (kuang_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.763485] (kuang_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.766917] (kuang_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces\n'}
+[1.792963] (kuang_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.800802] (kuang_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.803804] (-) TimerEvent: {}
+[1.812497] (kuang_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_kuang_interfaces\n'}
+[1.903937] (-) TimerEvent: {}
+[1.994436] (kuang_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.995106] (kuang_interfaces) StdoutLine: {'line': b'writing kuang_interfaces.egg-info/PKG-INFO\n'}
+[1.995375] (kuang_interfaces) StdoutLine: {'line': b'writing dependency_links to kuang_interfaces.egg-info/dependency_links.txt\n'}
+[1.995530] (kuang_interfaces) StdoutLine: {'line': b'writing top-level names to kuang_interfaces.egg-info/top_level.txt\n'}
+[1.997859] (kuang_interfaces) StdoutLine: {'line': b"reading manifest file 'kuang_interfaces.egg-info/SOURCES.txt'\n"}
+[1.998301] (kuang_interfaces) StdoutLine: {'line': b"writing manifest file 'kuang_interfaces.egg-info/SOURCES.txt'\n"}
+[2.004040] (-) TimerEvent: {}
+[2.028939] (kuang_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_kuang_interfaces_egg\n'}
+[2.104160] (-) TimerEvent: {}
+[2.141862] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.151960] (kuang_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kuang_interfaces/msg/detail/kuangshi_array__functions.c.o\x1b[0m\n'}
+[2.152132] (kuang_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kuang_interfaces/msg/detail/kuangshi__functions.c.o\x1b[0m\n'}
+[2.152252] (kuang_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kuang_interfaces/srv/detail/caikuang__functions.c.o\x1b[0m\n'}
+[2.156510] (kuang_interfaces) StdoutLine: {'line': b'[ 10%] Built target kuang_interfaces__cpp\n'}
+[2.164537] (kuang_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.164804] (kuang_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.166500] (kuang_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.200143] (kuang_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libkuang_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.204268] (-) TimerEvent: {}
+[2.233652] (kuang_interfaces) StdoutLine: {'line': b'[ 19%] Built target kuang_interfaces__rosidl_generator_c\n'}
+[2.240818] (kuang_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.240973] (kuang_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.241032] (kuang_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.304376] (-) TimerEvent: {}
+[2.404668] (-) TimerEvent: {}
+[2.449240] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.461613] (kuang_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kuang_interfaces/msg/kuangshi__type_support.cpp.o\x1b[0m\n'}
+[2.461878] (kuang_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kuang_interfaces/msg/kuangshi_array__type_support.cpp.o\x1b[0m\n'}
+[2.463156] (kuang_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kuang_interfaces/srv/caikuang__type_support.cpp.o\x1b[0m\n'}
+[2.483720] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.491872] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.495856] (kuang_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kuang_interfaces/msg/detail/kuangshi__type_support.cpp.o\x1b[0m\n'}
+[2.496069] (kuang_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kuang_interfaces/srv/detail/caikuang__type_support.cpp.o\x1b[0m\n'}
+[2.497788] (kuang_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kuang_interfaces/msg/detail/kuangshi_array__type_support.cpp.o\x1b[0m\n'}
+[2.504811] (-) TimerEvent: {}
+[2.506371] (kuang_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kuang_interfaces/srv/detail/dds_fastrtps/caikuang__type_support.cpp.o\x1b[0m\n'}
+[2.506638] (kuang_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kuang_interfaces/msg/detail/dds_fastrtps/kuangshi__type_support.cpp.o\x1b[0m\n'}
+[2.509240] (kuang_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kuang_interfaces/msg/detail/dds_fastrtps/kuangshi_array__type_support.cpp.o\x1b[0m\n'}
+[2.529690] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.541526] (kuang_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kuang_interfaces/msg/kuangshi__type_support.cpp.o\x1b[0m\n'}
+[2.543971] (kuang_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kuang_interfaces/srv/caikuang__type_support.cpp.o\x1b[0m\n'}
+[2.545346] (kuang_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kuang_interfaces/msg/kuangshi_array__type_support.cpp.o\x1b[0m\n'}
+[2.581743] (kuang_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libkuang_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.605418] (-) TimerEvent: {}
+[2.620344] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.624603] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.639574] (kuang_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kuang_interfaces/msg/detail/kuangshi__type_support.c.o\x1b[0m\n'}
+[2.640059] (kuang_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kuang_interfaces/msg/detail/kuangshi_array__type_support.c.o\x1b[0m\n'}
+[2.643223] (kuang_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kuang_interfaces/srv/detail/caikuang__type_support.c.o\x1b[0m\n'}
+[2.647330] (kuang_interfaces) StdoutLine: {'line': b'[ 59%] Built target kuang_interfaces__rosidl_typesupport_c\n'}
+[2.648765] (kuang_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kuang_interfaces/msg/detail/kuangshi__type_support_c.cpp.o\x1b[0m\n'}
+[2.655029] (kuang_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kuang_interfaces/srv/detail/caikuang__type_support_c.cpp.o\x1b[0m\n'}
+[2.656125] (kuang_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/kuang_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kuang_interfaces/msg/detail/kuangshi_array__type_support_c.cpp.o\x1b[0m\n'}
+[2.697770] (kuang_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libkuang_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.705126] (-) TimerEvent: {}
+[2.752062] (kuang_interfaces) StdoutLine: {'line': b'[ 68%] Built target kuang_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.805281] (-) TimerEvent: {}
+[2.816167] (kuang_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libkuang_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.871897] (kuang_interfaces) StdoutLine: {'line': b'[ 70%] Built target kuang_interfaces__rosidl_typesupport_cpp\n'}
+[2.905409] (-) TimerEvent: {}
+[3.005782] (-) TimerEvent: {}
+[3.007608] (kuang_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libkuang_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.011878] (kuang_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libkuang_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.077248] (kuang_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libkuang_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.087903] (kuang_interfaces) StdoutLine: {'line': b'[ 76%] Built target kuang_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.095512] (kuang_interfaces) StdoutLine: {'line': b'[ 76%] Built target kuang_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.105928] (-) TimerEvent: {}
+[3.151858] (kuang_interfaces) StdoutLine: {'line': b'[ 76%] Built target kuang_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.166543] (kuang_interfaces) StdoutLine: {'line': b'[ 76%] Built target kuang_interfaces\n'}
+[3.181081] (kuang_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.206071] (-) TimerEvent: {}
+[3.306479] (-) TimerEvent: {}
+[3.406902] (-) TimerEvent: {}
+[3.507302] (-) TimerEvent: {}
+[3.607701] (-) TimerEvent: {}
+[3.678109] (kuang_interfaces) StdoutLine: {'line': b'[ 78%] Built target kuang_interfaces__py\n'}
+[3.692512] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.707204] (kuang_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kuang_interfaces/msg/_kuangshi_s.c.o\x1b[0m\n'}
+[3.707785] (-) TimerEvent: {}
+[3.708988] (kuang_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kuang_interfaces/msg/_kuangshi_array_s.c.o\x1b[0m\n'}
+[3.709221] (kuang_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kuang_interfaces/srv/_caikuang_s.c.o\x1b[0m\n'}
+[3.807936] (-) TimerEvent: {}
+[3.818395] (kuang_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kuang_interfaces/libkuang_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.855381] (kuang_interfaces) StdoutLine: {'line': b'[ 87%] Built target kuang_interfaces__rosidl_generator_py\n'}
+[3.864122] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.864679] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.867845] (kuang_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuang_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.873672] (kuang_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/kuang_interfaces/_kuang_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.877822] (kuang_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/kuang_interfaces/_kuang_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.881832] (kuang_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/kuang_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/kuang_interfaces/_kuang_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.908042] (-) TimerEvent: {}
+[3.955698] (kuang_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.966540] (kuang_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.996807] (kuang_interfaces) StdoutLine: {'line': b'[ 97%] Built target kuang_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.999551] (kuang_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.999915] (kuang_interfaces) StdoutLine: {'line': b'[100%] Built target kuang_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.008159] (-) TimerEvent: {}
+[4.047898] (kuang_interfaces) StdoutLine: {'line': b'[100%] Built target kuang_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.062828] (kuang_interfaces) CommandEnded: {'returncode': 0}
+[4.108275] (-) TimerEvent: {}
+[4.129085] (kuang_interfaces) JobProgress: {'identifier': 'kuang_interfaces', 'progress': 'install'}
+[4.140716] (kuang_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces'], 'cwd': '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kuanghaoze'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuanghaoze'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1037'), ('SYSTEMD_EXEC_PID', '1148'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20840'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuanghaoze'), ('JOURNAL_STREAM', '8:33596'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuanghaoze'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kuanghaoze/anaconda3/bin:/home/kuanghaoze/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuanghaoze-Lenovo-Legion-R7000P2020H:@/tmp/.ICE-unix/1130,unix/kuanghaoze-Lenovo-Legion-R7000P2020H:/tmp/.ICE-unix/1130'), ('INVOCATION_ID', 'de46ea03c7f44434b946f861604d6bd7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTIGA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7c1f8f37c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuanghaoze/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuanghaoze/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/kuanghaoze/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble')]), 'shell': False}
+[4.151998] (kuang_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.152290] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/ament_index/resource_index/rosidl_interfaces/kuang_interfaces\n'}
+[4.152443] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces\n'}
+[4.152570] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv\n'}
+[4.152677] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/caikuang.h\n'}
+[4.152839] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail\n'}
+[4.152990] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__functions.h\n'}
+[4.153100] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__type_support.h\n'}
+[4.153278] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__struct.h\n'}
+[4.153384] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__functions.c\n'}
+[4.153488] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg\n'}
+[4.153627] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.153760] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/kuangshi_array.h\n'}
+[4.153824] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/kuangshi.h\n'}
+[4.153894] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail\n'}
+[4.153943] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__functions.h\n'}
+[4.154000] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__type_support.h\n'}
+[4.154084] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__functions.c\n'}
+[4.154170] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__functions.c\n'}
+[4.154307] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__struct.h\n'}
+[4.154468] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__struct.h\n'}
+[4.154624] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__type_support.h\n'}
+[4.154936] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__functions.h\n'}
+[4.155162] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/library_path.sh\n'}
+[4.155242] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/library_path.dsv\n'}
+[4.155591] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_generator_c.so\n'}
+[4.156339] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.156412] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces\n'}
+[4.156491] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv\n'}
+[4.156591] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail\n'}
+[4.156644] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__rosidl_typesupport_fastrtps_c.h\n'}
+[4.156722] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg\n'}
+[4.156802] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.156866] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail\n'}
+[4.156951] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__rosidl_typesupport_fastrtps_c.h\n'}
+[4.157028] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.157372] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.157859] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.157939] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces\n'}
+[4.158023] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv\n'}
+[4.158082] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/caikuang.hpp\n'}
+[4.158171] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail\n'}
+[4.158256] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__struct.hpp\n'}
+[4.158387] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__traits.hpp\n'}
+[4.158546] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__builder.hpp\n'}
+[4.158808] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg\n'}
+[4.158868] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/kuangshi_array.hpp\n'}
+[4.158944] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/kuangshi.hpp\n'}
+[4.159093] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail\n'}
+[4.159172] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__traits.hpp\n'}
+[4.159308] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__struct.hpp\n'}
+[4.159477] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__builder.hpp\n'}
+[4.159636] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__traits.hpp\n'}
+[4.159785] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__struct.hpp\n'}
+[4.159956] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__builder.hpp\n'}
+[4.160170] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces\n'}
+[4.160248] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv\n'}
+[4.160343] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail\n'}
+[4.160396] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/dds_fastrtps\n'}
+[4.160444] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.160512] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg\n'}
+[4.160599] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.160651] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail\n'}
+[4.160708] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/dds_fastrtps\n'}
+[4.160790] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.160876] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.161179] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.161759] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.161839] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces\n'}
+[4.161970] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv\n'}
+[4.162028] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail\n'}
+[4.162078] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__rosidl_typesupport_introspection_c.h\n'}
+[4.162179] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__type_support.c\n'}
+[4.162350] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg\n'}
+[4.162580] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.162736] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail\n'}
+[4.162849] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__rosidl_typesupport_introspection_c.h\n'}
+[4.162955] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__rosidl_typesupport_introspection_c.h\n'}
+[4.163100] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__type_support.c\n'}
+[4.163212] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__type_support.c\n'}
+[4.163355] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.163836] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.164027] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_c.so\n'}
+[4.164442] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.164608] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces\n'}
+[4.164766] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv\n'}
+[4.164865] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail\n'}
+[4.164915] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__type_support.cpp\n'}
+[4.164964] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/srv/detail/caikuang__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.165050] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg\n'}
+[4.165101] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail\n'}
+[4.165150] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__type_support.cpp\n'}
+[4.165219] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.165369] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.165530] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/include/kuang_interfaces/kuang_interfaces/msg/detail/kuangshi_array__type_support.cpp\n'}
+[4.165920] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.166497] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.166748] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.167191] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.167261] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/pythonpath.sh\n'}
+[4.167333] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/pythonpath.dsv\n'}
+[4.167524] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.167594] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.167747] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.167905] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.168059] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.168281] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces\n'}
+[4.168360] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/libkuang_interfaces__rosidl_generator_py.so\n'}
+[4.168574] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/__init__.py\n'}
+[4.168704] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.168905] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.169098] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/srv\n'}
+[4.169167] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/srv/__init__.py\n'}
+[4.169314] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/srv/_caikuang_s.c\n'}
+[4.169489] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/srv/_caikuang.py\n'}
+[4.169669] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.169872] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/_kuang_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.170076] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/_kuang_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.170268] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg\n'}
+[4.170324] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/_kuangshi_array_s.c\n'}
+[4.170539] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/_kuangshi_s.c\n'}
+[4.170763] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/__init__.py\n'}
+[4.170901] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/_kuangshi.py\n'}
+[4.171073] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/_kuangshi_array.py\n'}
+[4.171240] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/_kuang_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.196788] (kuang_interfaces) StdoutLine: {'line': b"Listing '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces'...\n"}
+[4.197026] (kuang_interfaces) StdoutLine: {'line': b"Compiling '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/__init__.py'...\n"}
+[4.197140] (kuang_interfaces) StdoutLine: {'line': b"Listing '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg'...\n"}
+[4.197242] (kuang_interfaces) StdoutLine: {'line': b"Compiling '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/__init__.py'...\n"}
+[4.197343] (kuang_interfaces) StdoutLine: {'line': b"Compiling '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/_kuangshi.py'...\n"}
+[4.197442] (kuang_interfaces) StdoutLine: {'line': b"Compiling '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/msg/_kuangshi_array.py'...\n"}
+[4.197542] (kuang_interfaces) StdoutLine: {'line': b"Listing '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/srv'...\n"}
+[4.197647] (kuang_interfaces) StdoutLine: {'line': b"Compiling '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/srv/__init__.py'...\n"}
+[4.197762] (kuang_interfaces) StdoutLine: {'line': b"Compiling '/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/srv/_caikuang.py'...\n"}
+[4.201186] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.201574] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.201843] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.202276] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.202539] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.203028] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/local/lib/python3.10/dist-packages/kuang_interfaces/kuang_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.203247] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_generator_py.so\n'}
+[4.203764] (kuang_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/lib/libkuang_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.203965] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/msg/Kuangshi.idl\n'}
+[4.204028] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/msg/KuangshiArray.idl\n'}
+[4.204079] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/srv/Caikuang.idl\n'}
+[4.204218] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/msg/Kuangshi.msg\n'}
+[4.204270] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/msg/KuangshiArray.msg\n'}
+[4.204380] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/srv/Caikuang.srv\n'}
+[4.204468] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/srv/Caikuang_Request.msg\n'}
+[4.204686] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/srv/Caikuang_Response.msg\n'}
+[4.204770] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/ament_index/resource_index/package_run_dependencies/kuang_interfaces\n'}
+[4.204846] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/ament_index/resource_index/parent_prefix_path/kuang_interfaces\n'}
+[4.205032] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/ament_prefix_path.sh\n'}
+[4.205104] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.205296] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/path.sh\n'}
+[4.205368] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/environment/path.dsv\n'}
+[4.205546] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/local_setup.bash\n'}
+[4.205629] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/local_setup.sh\n'}
+[4.205703] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/local_setup.zsh\n'}
+[4.205780] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/local_setup.dsv\n'}
+[4.205916] (kuang_interfaces) StdoutLine: {'line': b'-- Installing: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/package.dsv\n'}
+[4.206129] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/ament_index/resource_index/packages/kuang_interfaces\n'}
+[4.206254] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.206337] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.206450] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.206535] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.206631] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.206792] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.206879] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.206972] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.207065] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.207155] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.207229] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.207322] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.207402] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.207500] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.207573] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.207688] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.207761] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/export_kuang_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.207835] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.207909] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.207990] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.208072] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.208143] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.208221] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.208307] (-) TimerEvent: {}
+[4.208384] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.208440] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfacesConfig.cmake\n'}
+[4.208490] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/cmake/kuang_interfacesConfig-version.cmake\n'}
+[4.208539] (kuang_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces/share/kuang_interfaces/package.xml\n'}
+[4.211095] (kuang_interfaces) CommandEnded: {'returncode': 0}
+[4.309794] (-) TimerEvent: {}
+[4.313680] (kuang_interfaces) JobEnded: {'identifier': 'kuang_interfaces', 'rc': 0}
+[4.314678] (-) EventReactorShutdown: {}

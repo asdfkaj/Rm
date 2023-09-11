@@ -1,0 +1,56 @@
+[0.016s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target kuanggong_node[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o[0m
+[2.065s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.067s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1[m[K:
+[2.067s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:[m[K In member function ‘[01m[Kvoid SubscribeNode::kuangshi_callback(rclcpp::Client<kuang_interfaces::srv::Caikuang>::SharedFuture)[m[K’:
+[2.067s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SubscribeNode[m[K’ has no member named ‘[01m[Kget[m[K’
+[2.067s]    65 |             RCLCPP_INFO(this->[01;31m[Kget[m[K(),"6666");
+[2.067s]       |                               [01;31m[K^~~[m[K
+[2.068s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SubscribeNode[m[K’ has no member named ‘[01m[Kget[m[K’
+[2.068s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.068s]    65 |             [01;31m[KRCLCPP_INFO[m[K(this->get(),"6666");
+[2.068s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.068s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.068s]    65 |             [01;31m[KRCLCPP_INFO[m[K(this->get(),"6666");
+[2.068s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.068s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.069s]    65 |             [01;31m[KRCLCPP_INFO[m[K(this->get(),"6666");
+[2.069s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.069s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.069s]    65 |             [01;31m[KRCLCPP_INFO[m[K(this->get(),"6666");
+[2.069s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.069s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.069s]    65 |             [01;31m[KRCLCPP_INFO[m[K(this->get(),"6666");
+[2.070s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.070s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.072s]                  from [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:1[m[K:
+[2.072s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SubscribeNode[m[K’ has no member named ‘[01m[Kget[m[K’
+[2.072s]    65 |             RCLCPP_INFO(this->[01;31m[Kget[m[K(),"6666");
+[2.073s]       |                               [01;31m[K^~~[m[K
+[2.073s] [01m[K/home/kuanghaoze/d2lros2/game_ws/kuang_gong/src/kuanggong.cpp:65:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SubscribeNode[m[K’ has no member named ‘[01m[Kget[m[K’
+[2.073s]    65 |             RCLCPP_INFO(this->[01;31m[Kget[m[K(),"6666");
+[2.073s]       |                               [01;31m[K^~~[m[K
+[4.224s] gmake[2]: *** [CMakeFiles/kuanggong_node.dir/build.make:76：CMakeFiles/kuanggong_node.dir/src/kuanggong.cpp.o] 错误 1
+[4.224s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/kuanggong_node.dir/all] 错误 2
+[4.224s] gmake: *** [Makefile:146：all] 错误 2
+[4.226s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '2': CMAKE_PREFIX_PATH=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces:/home/kuanghaoze/d2lros2/game_ws/install/kuang_jie:/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong:/opt/ros/humble /usr/bin/cmake --build /home/kuanghaoze/d2lros2/game_ws/build/kuang_gong -- -j16 -l16

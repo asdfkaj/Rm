@@ -1,0 +1,2 @@
+Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces': /usr/bin/cmake /home/kuanghaoze/d2lros2/game_ws/kuang_interfaces -DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces
+Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_interfaces' returned '1': /usr/bin/cmake /home/kuanghaoze/d2lros2/game_ws/kuang_interfaces -DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_interfaces

@@ -1,0 +1,53 @@
+[0.022s] Invoking command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuanghaoze/d2lros2/game_ws/kuang_gong -DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.349s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.377s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.538s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.849s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.988s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.051s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.057s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.066s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.197s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.200s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.246s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.258s] -- Looking for pthread.h
+[1.356s] -- Looking for pthread.h - found
+[1.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.452s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.453s] -- Found Threads: TRUE  
+[1.671s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.779s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.779s] -- Configured cppcheck include dirs: 
+[1.779s] -- Configured cppcheck exclude dirs and/or files: 
+[1.780s] -- Added test 'lint_cmake' to check CMake code style
+[1.781s] -- Added test 'uncrustify' to check C / C++ code style
+[1.781s] -- Configured uncrustify additional arguments: 
+[1.781s] -- Added test 'xmllint' to check XML markup files
+[1.782s] -- Configuring done
+[1.786s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[1.786s]   Cannot find source file:
+[1.786s] 
+[1.786s]     kuanggong.cpp
+[1.786s] 
+[1.786s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.787s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.787s] 
+[1.787s] [0m
+[1.787s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[1.787s]   No SOURCES given to target: kuanggong_node
+[1.787s] 
+[1.788s] [0m
+[1.788s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.794s] Invoked command in '/home/kuanghaoze/d2lros2/game_ws/build/kuang_gong' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuanghaoze/d2lros2/game_ws/kuang_gong -DCMAKE_INSTALL_PREFIX=/home/kuanghaoze/d2lros2/game_ws/install/kuang_gong
